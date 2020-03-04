@@ -1,18 +1,18 @@
 h1 {
-           color: #ffccff;
-           font-family: "monaco", cursive;
-		   text-shadow: 4px 4px red ;
+           color: #66ff66;
+           font-family: "Arial", cursive;
+		   text-shadow: 4px 4px lime green ;
 		   font-size: 80pt;
           }
  
  
          .container {
          width: 700px;
-         background-color: Red;
+         background-color: Transparent;
          border: 10px solid #000;
          margin-left: auto;
          margin-right: auto;
-         height: 700px;
+         height: 800px;
         }
 
         .content {
@@ -38,7 +38,7 @@ h1 {
 
           body {
 		
-			background-image: url('backround.jpg');
+			background-image: url('Background.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-attachment: fixed;
@@ -67,11 +67,11 @@ h1 {
           }
 		  
 		  li a:hover:not(.current) {
-          background-color: magenta;
+          background-color: purple;
           }
          
 		 .current {
-          background-color: Gold;
+          background-color: #99ffff;
          }
 
           h2 {
@@ -109,7 +109,7 @@ h1 {
 			border: 5px lime green;
 			float: left;
 		}
-		
+		/*
 		a:link {
               color: yellow;
           }
@@ -122,5 +122,5 @@ h1 {
               background-color: purple;
               Color red;
           } 
-
+*/
 
