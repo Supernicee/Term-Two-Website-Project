@@ -1,7 +1,7 @@
 h1 {
-           color: #66ff66;
-           font-family: "Arial", cursive;
-		   text-shadow: 4px 4px lime green ;
+           color: #006600;
+           font: small-caps bold 24px/1 sans-serif;
+		   text-shadow: 2px 2px grey;
 		   font-size: 80pt;
           }
  
@@ -12,7 +12,7 @@ h1 {
          border: 10px solid #000;
          margin-left: auto;
          margin-right: auto;
-         height: 800px;
+         height: 850px;
         }
 
         .content {
@@ -25,12 +25,12 @@ h1 {
          margin: 0px;
          padding: 0px;
          overflow: hidden;
-         background-color: magenta;
+         background-color: #99ffff;
 }
           P {
           color: white;
-          font-family: "monaco", Times, serif;
-		  text-shadow: 2px 2px #ff66ff;
+          font: italic small-caps bold 16px/2 cursive;
+		  text-shadow: 1px 1px brown;
 		  font-size: 20pt;
 		  line-height: 1.5em;
           font-size: 14pt;
@@ -51,11 +51,11 @@ h1 {
 		
           li {
 		  color: white;
-          font-family: "monaco", Times, serif;
-		  text-shadow: 2px 2px #ff66ff;
-		  font-size: 20pt;
+          font: small-caps bold 24px/1 sans-serif;
+		  font-size: 16pt;
 		  float: left;
           width: 175px;
+		  text-shadow: 2px 2px black;
 		  }
 		  
 		  li a {
@@ -67,12 +67,9 @@ h1 {
           }
 		  
 		  li a:hover:not(.current) {
-          background-color: purple;
+          background-color: #ffff99;
           }
          
-		 .current {
-          background-color: #99ffff;
-         }
 
           h2 {
           color: #ffccff;
